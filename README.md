@@ -1,6 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="./android_studio_ide.png" />
-</div>
 
 # Run and deploy your Android Studio app
 
@@ -115,12 +112,4 @@ data class BillReminder(
 4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
 5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
 6. Run the app on an emulator or physical device
-
----
-
-## Developer Experience
-
-<div align="center">
-<img width="800" alt="Android Dev Compose" src="./android_dev_compose.png" />
-</div>
 
