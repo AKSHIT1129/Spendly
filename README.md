@@ -19,3 +19,12 @@ View your app in Android Studio: https://developer.android.com/studio
 4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
 5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
 6. Run the app on an emulator or physical device
+
+---
+
+## Developer Experience & IDE Mockups
+
+<div align="center">
+<img width="550" alt="Android Studio IDE Mockup" src="./android_studio_ide.png" style="margin-right: 10px;" />
+<img width="550" alt="Android Dev Compose" src="./android_dev_compose.png" />
+</div>
