@@ -49,21 +49,8 @@ data class Member(
 )
 ```
 
-### 2. Transaction Entity
-Records individual financial entries, referencing the corresponding member profile.
-```kotlin
-data class Transaction(
-    val id: Int = 0,
-    val amount: Double, // Positive for Income, Negative for Expense
-    val category: String, // e.g., Food, Rent, Salary, Shopping
-    val description: String,
-    val date: Long, // Epoch timestamp
-    val memberId: Int, // Foreign key referencing Member
-    val isShared: Boolean = false
-)
-```
 
-### 3. Budget Entity
+### 2. Budget Entity
 Sets monthly limits for spending categories.
 ```kotlin
 data class Budget(
@@ -74,7 +61,8 @@ data class Budget(
 )
 ```
 
-### 4. Saving Goal Entity
+
+### 3. Saving Goal Entity
 Tracks objectives for saving money.
 ```kotlin
 data class SavingGoal(
@@ -86,7 +74,8 @@ data class SavingGoal(
 )
 ```
 
-### 5. Bill Reminder Entity
+
+### 4. Bill Reminder Entity
 Reminds users of upcoming payments.
 ```kotlin
 data class BillReminder(
