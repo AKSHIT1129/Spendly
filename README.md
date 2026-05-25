@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://developer.android.com/static/images/social/android-developers.png" />
+<img width="1200" height="475" alt="GHBanner" src="./android_studio_ide.png" />
 </div>
 
 # Run and deploy your Android Studio app
@@ -22,9 +22,9 @@ View your app in Android Studio: https://developer.android.com/studio
 
 ---
 
-## Developer Experience & IDE Mockups
+## Developer Experience
 
 <div align="center">
-<img width="550" alt="Android Studio IDE Mockup" src="./android_studio_ide.png" style="margin-right: 10px;" />
-<img width="550" alt="Android Dev Compose" src="./android_dev_compose.png" />
+<img width="800" alt="Android Dev Compose" src="./android_dev_compose.png" />
 </div>
+
