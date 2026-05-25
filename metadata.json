@@ -1,0 +1,6 @@
+{
+  "name": "Spendly",
+  "description": "A modern individual and shared finance manager for up to 10 members. Offers real-time expense tracking, budgets, saving goals, analytics, and bill reminders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
