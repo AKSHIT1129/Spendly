@@ -1,15 +1,7 @@
-
-# Run and deploy your Android Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in Android Studio: https://developer.android.com/studio
-
-
 ## About Spendly Space
 
 Spendly is a modern, collaborative personal finance application. It is designed to allow individuals, families, or groups of friends to track and manage their shared or individual financial tasks. The application is built using modern Android development practices, utilizing Jetpack Compose for a fully reactive, high-performance UI and Room Database for reliable offline local storage.
-
+                                             
 ---
 
 ## Core Features and Operations
@@ -34,62 +26,6 @@ The app features a custom Exchange screen that facilitates transferring funds be
 
 ---
 
-## Code Architecture & Database Schema
-
-Spendly leverages Android Room Database to persist all details locally. The underlying database contains five main tables:
-
-### 1. Member Entity
-Represents a user profile within the shared ecosystem.
-```kotlin
-data class Member(
-    val id: Int = 0,
-    val name: String,
-    val colorHex: String,
-    val role: String // Primary, Partner, Family, Friend
-)
-```
-
-
-### 2. Budget Entity
-Sets monthly limits for spending categories.
-```kotlin
-data class Budget(
-    val id: Int = 0,
-    val category: String,
-    val monthlyLimit: Double,
-    val monthYear: String // Format: YYYY-MM (e.g., 2026-05)
-)
-```
-
-
-### 3. Saving Goal Entity
-Tracks objectives for saving money.
-```kotlin
-data class SavingGoal(
-    val id: Int = 0,
-    val title: String,
-    val targetAmount: Double,
-    val currentAmount: Double,
-    val targetDate: String // Target deadline date
-)
-```
-
-
-### 4. Bill Reminder Entity
-Reminds users of upcoming payments.
-```kotlin
-data class BillReminder(
-    val id: Int = 0,
-    val title: String,
-    val amount: Double,
-    val dueDate: Long,
-    var isPaid: Boolean = false,
-    val category: String
-)
-```
-
----
-
 ## Run Locally
 
 **Prerequisites:**  [Android Studio](https://developer.android.com/studio)
@@ -102,3 +38,4 @@ data class BillReminder(
 5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
 6. Run the app on an emulator or physical device
 
+*View the app in Android Studio: https://developer.android.com/studio*
